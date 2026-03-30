@@ -77,7 +77,7 @@ for (var i = 0; i < circles.length; i++) {
 }
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition(circles[ 0 ])
+game.checkCirclePosition(circles[ 0 ])
 
 game.checkCirclePosition(circles[ 1 ])
 
