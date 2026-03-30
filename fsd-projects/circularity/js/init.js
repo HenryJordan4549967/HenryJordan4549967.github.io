@@ -50,9 +50,11 @@ drawCircle()
 
 
         // TODO 7 : Use a loop to create multiple circles
+for (var loopsCompleted = 0; loopsCompleted < 175; loopsCompleted++) {
 
+            drawCircle();
 
-
+        }
 
         ///////////////////
         // PROGRAM LOGIC //
@@ -116,7 +118,7 @@ game.checkCirclePosition(circles[ 4 ])
 
                 circle.y = canvas.height;
 
-            }git add . && git commit -m "todo 6 complete" && git push
+            }
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
         
